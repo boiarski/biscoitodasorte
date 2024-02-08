@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+.hide{
+    display: none;
+}
+
+body{
+    background: linear-gradient(50deg, #190361 0%, #bb00ff 100%);
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center;
+
+    height: 100vh;
+}
+
+main{
+    margin-top: -12rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+
+    background: #ffffff;
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+
+    text-align: center;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+
+    color: #34355b;
+
+    margin-bottom: 1.5rem;
+}
+
+p{
+    font-family: "DM Sans", sans-serif;
+
+    color: #34355b;
+}
+
+.fortuneCookie{
+    margin-top: 2rem;
+}
+
+@keyframes tilt {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+.fortuneCookie:hover{
+    animation: tilt 0.5s infinite;
+}
+
+.sorte{
+    padding: 1rem;
+    background: #e4edf1;
+    box-shadow: 0 .2rem .2rem rgba(85, 85, 85, 0.5);
+}
+
+.sorte p{
+    font-family: "Dancing Script", cursive;
+    font-size: 2.4rem;
+}
+
+.newFortune{
+    background: #ff9500;
+    padding: 1.6rem;
+
+    font-size: 1.5rem;
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+
+    border: none;
+    border-radius: .4rem;
+    
+}
+
+.newFortune:hover{
+    background: #f0af55;
+}
+
