@@ -3,6 +3,7 @@ const screen2 = document.querySelector(".screen2");
 const fortuneCookie = document.querySelector('.fortuneCookie');
 const newFortune = document.querySelector('.newFortune');
 
+fortuneCookie.addEventListener('click', handleResetClick);
 newFortune.addEventListener('click', handleResetClick);
 
 function handleResetClick(){
